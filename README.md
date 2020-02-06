@@ -49,3 +49,14 @@ GO111MODULE off on auto
 - verify verify dependencies have expected content (验证依赖是否正确）
 - why explain why packages or modules are needed(解释为什么需要依赖)
 
+### 3. go config in mac
+
+```
+export GOPROXY="https://mirrors.aliyun.com/goproxy/"
+export GO111MODULE="auto"
+export GOROOT=/usr/local/Cellar/go/1.13.7/libexec
+export GOPATH=/Users/lgc/go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+export GOBIN=$GOPATH/bin
+```
+
